@@ -1,1 +1,2 @@
 Using Reflection in .NET, you can access the information about private members of a type using the BindingFlags enumeration. The BindingFlags enumeration allows you to specify filters like NonPublic, Instance, or Static members, which helps to search for private members in a type.
+In this example, we're using the  BindingFlags.NonPublic | BindingFlags.Instance flags to retrieve private instance fields, properties, and methods of the MyClass type. The output will display the names of the private fields, methods, and properties of the class.
